@@ -1,0 +1,32 @@
+/* App.css */
+
+.PlayGame {
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    gap: 12px
+}
+
+.category {
+    width: 200px;
+    padding: 20px;
+    background-color: #dcc1c1;
+    border-radius: 5px;
+}
+
+.item {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #0d841d;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.item:hover {
+    background-color: #3cf075; 
+}
